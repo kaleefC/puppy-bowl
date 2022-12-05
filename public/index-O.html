@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .Doggy {
+
+            float: left;
+            box-shadow: 2px 2px 5px 2px black;
+            width: 23%;
+            height: auto;
+
+        }
+
+        #dogOne {
+
+            position: relative;
+            left: 0px;
+
+        }
+
+        #dogTwo {
+
+            position: relative;
+            left: 30px;
+
+        }
+
+        #dogThree {
+
+            position: relative;
+            left: 60px;
+
+        }
+
+        #dogFour {
+
+            position: relative;
+            left: 90px;
+
+        }
+
+        .numbers {
+
+            float: right;
+            position: relative;
+            right: 50px;
+
+        }
+
+        .DogNamed {
+
+            float: left;
+            position: relative;
+            left: 50px;
+
+        }
+
+        .finger {
+
+            border-radius: 20px;
+            ;
+
+        }
+
+        .finger {
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+
+        }
+
+        .Buttons {
+
+            width: 100%;
+            padding: 10px;
+
+        }
+
+        .myInput {
+
+            position: relative;
+            height: 30px;
+            top: 15px;
+            width: 15%;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+            left: 10px;
+
+        }
+
+        #barsAlign {
+
+            float: left;
+            font-size: 20px;
+            ;
+
+        }
+
+        #breed {
+
+            position: relative;
+            left: 50px;
+
+        }
+
+        .breedw {
+
+            position: relative;
+            left: 40px;
+
+        }
+
+        #goob {
+
+            background-color: firebrick;
+            width: 50px;
+            height: 50px;
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Bowl</title>
+</head>
+
+<body>
+
+
+
+    <div id="barsAlignCont">
+        <p id="barsAlign">Name:</p>
+        <input type="text" id="barsAlign" class="myInput" title="Type in a name">
+
+        <p id="barsAlign" class="breedw">Breed:</p>
+        <input type="text" id="breed" class="myInput" title="Type in a breed">
+    </div>
+    <br>
+    <div class="float-container">
+        <div id="dogOne" class="Doggy">
+            <h1 class="DogNamed">Doggy!</h1><br>
+            <p class="numbers">#numbers!!</p>
+
+            <img class="finger" src="Images/finger.jpeg">
+            <br>
+            <button class="Buttons">Please stop putting the "kid named finger" in every project</button>
+            <button class="Buttons"> Delete From Roster</button>
+        </div>
+        <div id="dogTwo" class="Doggy">
+            <h1 class="DogNamed">a ${props.puppy.name}</h1><br>
+            <p class="numbers">#numbers!!</p>
+
+            <img class="finger" src = {props.puppy.imageURL}>
+            <br>
+            <button class="Buttons">See details</button>
+            <button class="Buttons"> Delete From Roster</button>
+        </div>
+        <div id="dogThree" class="Doggy">
+            <h1 class="DogNamed">Doggy!</h1><br>
+            <p class="numbers">#numbers!!</p>
+
+            <img class="finger" src="Images/finger.jpeg">
+            <br>
+            <button class="Buttons">Please stop putting the "kid named finger" in every project</button>
+            <button class="Buttons"> Delete From Roster</button>
+        </div>
+        <div id="dogFour" class="Doggy">
+            <h1 class="DogNamed">Doggy!</h1><br>
+            <p class="numbers">#numbers!!</p>
+
+            <img class="finger" src="Images/finger.jpeg">
+            <br>
+            <button class="Buttons">Please stop putting the "kid named finger" in every project</button>
+            <button class="Buttons"> Delete From Roster</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
